@@ -7,8 +7,9 @@ class AddToDoForm extends Component {
     super(props);
     this.submit = this.submit.bind(this);
   }
-  submit() {
+  submit(e) {
     const { _todo } = this.refs;
+    e.preventDefault();
     this.props.onNewToDo(_todo.value);
     _todo.value = "";
     _todo.focus();

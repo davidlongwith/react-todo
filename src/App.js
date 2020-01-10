@@ -16,13 +16,26 @@ class App extends Component {
         }
       ]
     };
+    this.addToDo = this.addToDo.bind(this);
+  }
+
+  addToDo(todo) {
+    const todos = [
+      ...this.state.todos,
+      {
+        id: v4(),
+        todo
+      }
+    ];
+    this.setState({ todos });
   }
 
   render() {
+    const { addToDo } = this;
     const { todos } = this.state;
     return (
       <div className="App">
-        <Header />
+        <Header onNewToDo={addToDo} />
         <ToDoList todos={todos} />
       </div>
     );
