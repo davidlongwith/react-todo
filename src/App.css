@@ -32,3 +32,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.App-header h1 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
