@@ -3,6 +3,7 @@ import { Component } from "react";
 import { v4 } from "uuid";
 import "./App.css";
 import Header from "./components/Header.js";
+import ToDoList from "./components/ToDoList.js";
 
 class App extends Component {
   constructor(props) {
@@ -22,7 +23,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        {console.log(todos)}
+        <ToDoList todos={todos} />
       </div>
     );
   }
