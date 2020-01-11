@@ -17,10 +17,17 @@ class AddToDoForm extends Component {
   }
   render() {
     return (
-      <form onSubmit={this.submit}>
-        <input ref="_todo" type="text" placeholder="Add new todo..." required />
-        <button>ADD</button>
-      </form>
+      <div className="add-todo-form-container">
+        <form className="add-todo-form" onSubmit={this.submit}>
+          <input
+            ref="_todo"
+            type="text"
+            placeholder="Add new todo..."
+            required
+          />
+          <button>ADD</button>
+        </form>
+      </div>
     );
   }
 }

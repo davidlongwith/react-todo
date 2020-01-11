@@ -37,3 +37,29 @@
   margin-bottom: 15px;
   margin-top: 15px;
 }
+
+.add-todo-form-container {
+  max-width: 720px;
+  width: 100%;
+}
+
+.add-todo-form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.add-todo-form input[type="text"],
+.add-todo-form button {
+  font-size: large;
+  padding: 12px 20px;
+}
+
+.add-todo-form input[type="text"] {
+  width: 100%;
+}
+
+.add-todo-form button {
+  height: auto;
+  width: auto;
+}
