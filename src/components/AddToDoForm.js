@@ -25,7 +25,7 @@ class AddToDoForm extends Component {
             placeholder="Add new todo..."
             required
           />
-          <button>ADD</button>
+          <button>+</button>
         </form>
       </div>
     );

@@ -39,7 +39,8 @@
 }
 
 .add-todo-form-container {
-  max-width: 720px;
+  padding: 0 1em;
+  max-width: 600px;
   width: 100%;
 }
 
@@ -60,6 +61,8 @@
 }
 
 .add-todo-form button {
+  background: rgb(0, 116, 0);
+  color: #fff;
   height: auto;
   width: auto;
 }
