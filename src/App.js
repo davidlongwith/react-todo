@@ -17,6 +17,7 @@ class App extends Component {
       ]
     };
     this.addToDo = this.addToDo.bind(this);
+    this.removeToDo = this.removeToDo.bind(this);
   }
 
   addToDo(todo) {
@@ -30,13 +31,18 @@ class App extends Component {
     this.setState({ todos });
   }
 
+  removeToDo(id) {
+    const todos = this.state.todos.filter(todo => todo.id !== id);
+    this.setState({ todos });
+  }
+
   render() {
-    const { addToDo } = this;
+    const { addToDo, removeToDo } = this;
     const { todos } = this.state;
     return (
       <div className="App">
         <Header onNewToDo={addToDo} />
-        <ToDoList todos={todos} />
+        <ToDoList todos={todos} onRemove={removeToDo} />
       </div>
     );
   }
