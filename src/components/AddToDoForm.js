@@ -10,6 +10,7 @@ class AddToDoForm extends Component {
   submit(e) {
     const { _todo } = this.refs;
     e.preventDefault();
+    // pass todo data up to parent component with callback function property "onNewToDo"
     this.props.onNewToDo(_todo.value);
     _todo.value = "";
     _todo.focus();
