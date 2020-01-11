@@ -1,6 +1,8 @@
 import React from "react";
 import ToDo from "./ToDo.js";
 
+// "onRemove" prop extracts todo id needed and sends it up the tree
+// (placeholder function f=>f returns the first argument sent to it)
 const ToDoList = ({ todos, onRemove = f => f }) => (
   <div className="todo-list">
     {todos.length === 0 ? (
