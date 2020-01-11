@@ -40,11 +40,19 @@
   margin-top: 15px;
 }
 
-.todo p {
+.todo-list {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.todo-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.todo-container p {
   color: #fff;
   font-family: cursive;
   font-size: x-large;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 70%;
 }
