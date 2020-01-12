@@ -41,8 +41,10 @@
 }
 
 .todo-list {
+  font-size: x-large;
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 2%;
 }
 
 .no-todos {
@@ -53,30 +55,28 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  margin-bottom: 0.75em;
 }
 
-/*
- * inline-flex allows centering of button content using flexbox
- * features while maintaining normal document flow. 
- */
 .todo-entry-container button {
   align-items: center;
   background: none;
-  border: 2px solid red;
+  border: 1px solid red;
   border-radius: 100%;
   color: red;
+  cursor: pointer;
   display: inline-flex;
   height: 2em;
   flex-direction: column;
   justify-content: center;
   min-height: 2em;
   min-width: 2em;
+  outline: none;
   width: 2em;
 }
 
 .todo-entry-container p {
   color: #fff;
   font-family: cursive;
-  font-size: 1.75em;
-  margin: 0.6em 0.5em;
+  margin: 0 0.5em;
 }
