@@ -62,17 +62,17 @@
   border-radius: 100%;
   color: red;
   display: inline-flex;
-  height: 32px;
+  height: 2em;
   flex-direction: column;
   justify-content: center;
-  min-height: 32px;
-  min-width: 32px;
-  width: 32px;
+  min-height: 2em;
+  min-width: 2em;
+  width: 2em;
 }
 
 .todo-entry-container p {
   color: #fff;
   font-family: cursive;
-  font-size: x-large;
-  margin: 0.5em 0.5em;
+  font-size: 1.75em;
+  margin: 0.6em 0.5em;
 }
