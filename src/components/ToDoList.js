@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 // "onRemove" prop extracts todo id needed and sends it up the tree
 // (placeholder function f=>f returns the first argument sent to it)
-const ToDoList = ({ todos, onRemove = f => f }) => (
+const ToDoList = ({ todos, onRemove }) => (
   <div className="todo-list">
     {todos.length === 0 ? (
       <p className="no-todos">No To-Do's Listed. (Add a To-Do)</p>
