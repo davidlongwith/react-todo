@@ -1,5 +1,6 @@
 import React from "react";
 import ToDo from "./ToDo.js";
+import PropTypes from "prop-types";
 
 // "onRemove" prop extracts todo id needed and sends it up the tree
 // (placeholder function f=>f returns the first argument sent to it)
@@ -14,5 +15,11 @@ const ToDoList = ({ todos, onRemove = f => f }) => (
     )}
   </div>
 );
+
+// Typechecking with PropTypes
+ToDoList.propTypes = {
+  todos: PropTypes.array,
+  onRemove: PropTypes.func
+};
 
 export default ToDoList;
