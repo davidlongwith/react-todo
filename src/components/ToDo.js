@@ -11,7 +11,8 @@ const ToDo = ({ todo, onRemove }) => (
 
 // Typechecking with PropTypes
 ToDo.propTypes = {
-  todo: PropTypes.string
+  todo: PropTypes.string,
+  onRemove: PropTypes.func
 };
 
 export default ToDo;
