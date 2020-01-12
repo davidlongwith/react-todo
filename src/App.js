@@ -11,8 +11,7 @@ class App extends Component {
     this.state = {
       todos: [
         {
-          // id generated with uuid package, v4() is for random based identifer
-          id: v4(),
+          id: v4(), // id generated with uuid npm package, v4() is for random based identifer
           todo: "Add a todo"
         }
       ]
