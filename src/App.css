@@ -57,13 +57,17 @@
 }
 
 .todo-entry-container button {
+  align-items: center;
   background: none;
   border: 2px solid red;
   border-radius: 100%;
   color: red;
+  display: inline-flex;
+  height: 32px;
+  flex-direction: column;
+  justify-content: center;
   margin-right: 1em;
-  min-height: 2em;
-  min-width: 2em;
+  width: 32px;
 }
 
 .todo-entry-container p {
