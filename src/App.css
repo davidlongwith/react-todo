@@ -44,8 +44,8 @@
   font-size: x-large;
   margin: 0 auto;
   max-width: 1200px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
   padding-top: 2%;
 }
 
@@ -80,5 +80,8 @@
 .todo-entry-container p {
   color: #fff;
   font-family: cursive;
-  margin: 0 0.5em;
+  margin-left: 0.4em;
+  margin-bottom: 0.25em;
+  margin-right: 0;
+  margin-top: 0;
 }
