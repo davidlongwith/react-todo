@@ -2,9 +2,11 @@ import React from "react";
 import ToDo from "./ToDo.js";
 import PropTypes from "prop-types";
 
-// "onRemove" prop extracts todo id needed and sends it up the tree
-// (placeholder function f=>f returns the first argument sent to it)
-const ToDoList = ({ todos, onRemove }) => (
+// This stateless functional component is responsible for displaying all
+// of the todo's, or a default message if there aren't any.  The "todos" prop contains
+// the array of all to-do's passed down from <App />.  The "onRemove" callback
+// function property passes relevant event data from <ToDo /> up the tree to <App />.
+const ToDoList = ({ todos, onRemove = f => f }) => (
   <div className="todo-list">
     {todos.length === 0 ? (
       <p className="no-todos">No To-Do's Listed. (Add a To-Do)</p>
