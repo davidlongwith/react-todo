@@ -12,7 +12,7 @@ const AddToDoForm = ({ onNewToDo = f => f }) => {
 
   const submit = e => {
     e.preventDefault();
-    onNewToDo(_todo);
+    onNewToDo(_todo.value);
     _todo.value = "";
     _todo.focus();
   };
