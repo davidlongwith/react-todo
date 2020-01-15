@@ -3,7 +3,7 @@ import logo from "../logo.svg";
 import AddToDoForm from "./AddToDoForm.js";
 import PropTypes from "prop-types";
 
-// The app header and user input form are grouped together in this stateless functional
+// The app header and user input form are displayed together in this stateless functional
 // component.  The "onNewToDo" callback function property simply passes data from the
 // form component up tree for use in <App /> where state is managed.
 const Header = ({ onNewToDo = f => f }) => (

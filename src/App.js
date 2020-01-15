@@ -5,7 +5,9 @@ import "./App.css";
 import Header from "./components/Header.js";
 import ToDoList from "./components/ToDoList.js";
 
-class App extends Component {
+// Root application ES6 component class with constructor and custom methods.  All application
+// state managed here.
+export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -47,5 +49,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
