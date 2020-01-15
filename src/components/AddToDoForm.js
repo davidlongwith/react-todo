@@ -2,9 +2,11 @@ import React from "react";
 import "../AddToDoForm.css";
 import PropTypes from "prop-types";
 
-// This stateless functional component displays a form for the user to
-// enter new todo's.  The new todo is sent up the tree using the "onNewToDo"
-// callback function property.
+/*
+ * This stateless functional component displays a form for the user to
+ * enter new todo's.  The new todo is sent up the tree using the "onNewToDo"
+ * callback function property.
+ */
 const AddToDoForm = ({ onNewToDo = f => f }) => {
   let _todo;
 
