@@ -26,4 +26,6 @@
   margin-bottom: 0;
   margin-right: 0;
   margin-top: 0;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
