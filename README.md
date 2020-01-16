@@ -4,7 +4,7 @@ A basic, front-end only, To-Do application built with React.
 
 https://davidlongwith.github.io/react-todo/
 
-##### Developer Notes:
+#### Developer Notes:
 
 Features ES6 component classes, stateless functional components, and uses React's built-in state functionality.
 
