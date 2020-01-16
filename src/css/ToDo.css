@@ -3,7 +3,7 @@
   display: flex;
   font-size: inherit;
   justify-content: center;
-  margin-bottom: 0.75em;
+  padding-bottom: 0.75em;
 }
 
 .todo-entry-container button {
