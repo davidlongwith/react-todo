@@ -1,5 +1,5 @@
 .todo-list {
-  font-size: 2em;
+  font-size: calc(15px + 2vmin);
   margin: 0 auto;
   max-width: 1200px;
   padding-left: 2%;

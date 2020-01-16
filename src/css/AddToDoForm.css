@@ -14,7 +14,7 @@
 .add-todo-form input[type="text"],
 .add-todo-form button {
   font-size: inherit;
-  padding: 12px 20px;
+  padding: 0.4em 0.85em;
 }
 
 .add-todo-form input[type="text"] {
