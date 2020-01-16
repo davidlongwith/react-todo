@@ -1,4 +1,5 @@
 .add-todo-form-container {
+  font-size: inherit;
   padding: 0 1em;
   max-width: 600px;
   width: 100%;
@@ -12,7 +13,7 @@
 
 .add-todo-form input[type="text"],
 .add-todo-form button {
-  font-size: 1em;
+  font-size: inherit;
   padding: 12px 20px;
 }
 
