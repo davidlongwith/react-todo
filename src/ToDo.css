@@ -9,6 +9,7 @@
 .todo-entry-container button {
   align-items: center;
   background: none;
+  border: 1px solid black;
   color: red;
   cursor: pointer;
   display: inline-flex;
